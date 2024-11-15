@@ -1,0 +1,6 @@
+# ninja log v6
+1	244	7534100010840273	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
+4	245	7534100010871253	CMakeFiles/BlackJack.dir/src/main.cpp.obj	676b889f29fa87c2
+245	373	7534100013275270	Debug-Windows-AMD64/BlackJack.exe	9507e2b644f7baac
+3	246	7534101218598948	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
+246	321	7534101221025793	Debug-Windows-AMD64/BlackJack.exe	9507e2b644f7baac

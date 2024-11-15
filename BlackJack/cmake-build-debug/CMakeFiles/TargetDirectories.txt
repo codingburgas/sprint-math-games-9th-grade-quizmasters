@@ -1,0 +1,3 @@
+C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir
+C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
