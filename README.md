@@ -9,6 +9,6 @@
 </ul>
 
 ## Presenting 
-<img src="../Photos/Word Icon.png" alt="Word icon" width=20px />[Documentation]()
+<img src="/Photos/Word Icon.png" alt="Word icon" width=20px />[Documentation]()
 
-<img src="../Photos/Powerpoint Icon.png" alt="PowerPoint icon" width=20px >[Presentation]()
+<img src="/Photos/Powerpoint Icon.png" alt="PowerPoint icon" width=20px >[Presentation]()
