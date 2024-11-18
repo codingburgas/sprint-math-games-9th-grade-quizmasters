@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BlackJack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BlackJack-Debug-49f90b4dbe5038dcd46c.json",
+					"jsonFile" : "target-BlackJack-Debug-52ec5112a003cd7d70f1.json",
 					"name" : "BlackJack",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug",
-		"source" : "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack"
+		"build" : "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug",
+		"source" : "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack"
 	},
 	"version" : 
 	{

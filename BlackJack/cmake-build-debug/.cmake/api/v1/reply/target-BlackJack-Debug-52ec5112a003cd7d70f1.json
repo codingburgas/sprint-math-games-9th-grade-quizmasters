@@ -91,15 +91,15 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./vendor/raylib/include"
+					"path" : "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/./vendor/raylib/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/src"
+					"path" : "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/lib"
+					"path" : "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/lib"
 				}
 			],
 			"language" : "CXX",
@@ -134,12 +134,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\GRIGS\\Documents\\PGKPI\\PRG\\QuizMasters\\sprint-math-games-9th-grade-quizmasters\\BlackJack\\.\\vendor\\raylib\\lib",
+				"fragment" : "-LC:\\Users\\Misho\\CLionProjects\\sprint-math-games-9th-grade-quizmasters\\BlackJack\\.\\vendor\\raylib\\lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\GRIGS\\Documents\\PGKPI\\PRG\\QuizMasters\\sprint-math-games-9th-grade-quizmasters\\BlackJack\\.\\BlackJack\\lib",
+				"fragment" : "-LC:\\Users\\Misho\\CLionProjects\\sprint-math-games-9th-grade-quizmasters\\BlackJack\\.\\BlackJack\\lib",
 				"role" : "libraryPath"
 			},
 			{

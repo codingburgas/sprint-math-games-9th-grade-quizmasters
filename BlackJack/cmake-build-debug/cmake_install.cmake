@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack
+# Install script for directory: C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
