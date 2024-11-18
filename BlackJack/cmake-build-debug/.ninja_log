@@ -1,6 +1,8 @@
 # ninja log v6
-1	244	7534100010840273	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
+14	275	7534635547586081	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
 4	245	7534100010871253	CMakeFiles/BlackJack.dir/src/main.cpp.obj	676b889f29fa87c2
-245	373	7534100013275270	Debug-Windows-AMD64/BlackJack.exe	9507e2b644f7baac
-3	246	7534101218598948	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
-246	321	7534101221025793	Debug-Windows-AMD64/BlackJack.exe	9507e2b644f7baac
+275	1168	7534635550191219	Debug-Windows-AMD64/BlackJack.exe	9507e2b644f7baac
+40	495	7535506046189695	CMakeFiles/BlackJack.dir/src/main.cpp.obj	676b889f29fa87c2
+34	501	7535506046134519	CMakeFiles/BlackJack.dir/src/app.cpp.obj	226c8c66f1978ec2
+3	369	7535507475003288	CMakeFiles/BlackJack.dir/src/Deck.cpp.obj	105096d9040b0779
+369	1122	7535507478662374	Debug-Windows-AMD64/BlackJack.exe	7142c39973b42353

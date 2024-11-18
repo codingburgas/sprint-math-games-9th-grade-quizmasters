@@ -65,6 +65,14 @@ build CMakeFiles/BlackJack.dir/src/main.cpp.obj: CXX_COMPILER__BlackJack_unscann
   OBJECT_DIR = CMakeFiles\BlackJack.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackJack.dir\src
 
+build CMakeFiles/BlackJack.dir/src/Deck.cpp.obj: CXX_COMPILER__BlackJack_unscanned_Debug C$:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/src/Deck.cpp || cmake_object_order_depends_target_BlackJack
+  DEFINES = -DOD_DEBUG
+  DEP_FILE = CMakeFiles\BlackJack.dir\src\Deck.cpp.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -g
+  INCLUDES = -IC:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./vendor/raylib/include -IC:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/src -IC:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/lib
+  OBJECT_DIR = CMakeFiles\BlackJack.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackJack.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BlackJack
@@ -73,7 +81,7 @@ build CMakeFiles/BlackJack.dir/src/main.cpp.obj: CXX_COMPILER__BlackJack_unscann
 #############################################
 # Link the executable Debug-Windows-AMD64\BlackJack.exe
 
-build Debug-Windows-AMD64/BlackJack.exe: CXX_EXECUTABLE_LINKER__BlackJack_Debug CMakeFiles/BlackJack.dir/src/app.cpp.obj CMakeFiles/BlackJack.dir/src/main.cpp.obj
+build Debug-Windows-AMD64/BlackJack.exe: CXX_EXECUTABLE_LINKER__BlackJack_Debug CMakeFiles/BlackJack.dir/src/app.cpp.obj CMakeFiles/BlackJack.dir/src/main.cpp.obj CMakeFiles/BlackJack.dir/src/Deck.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lraylibdll  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./vendor/raylib/lib   -LC:/Users/GRIGS/Documents/PGKPI/PRG/QuizMasters/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/lib

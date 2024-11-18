@@ -27,6 +27,8 @@ add_executable(BlackJack ${SOURCES} ${HEADERS}
         lib/app.h
         lib/precompile.h
         src/main.cpp
+        src/Deck.cpp
+        lib/Deck.h
 )
 set_target_properties(BlackJack PROPERTIES LINKER_LANGUAGE CXX)
 
