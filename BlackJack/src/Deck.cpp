@@ -8,6 +8,7 @@ Cards::Cards(int suit,int rank,std::string problem) {
 Cards cardSelect(int points)
 {
     int cardPoints;
+
     Problems problems;
     std::random_device rd;
     std::uniform_int_distribution<int> cardDist(1, 13);
@@ -26,7 +27,7 @@ Cards cardSelect(int points)
             {
                 selectedProblem = problems.cardBigAce[randomProblemIndex];
                 cardPoints = 11;
-            }
+             }
         break;
         case 2: selectedProblem = problems.cardTwo[randomProblemIndex]; cardPoints = 2;
             break;
@@ -52,3 +53,4 @@ Cards cardSelect(int points)
             break;
     }
 }
+

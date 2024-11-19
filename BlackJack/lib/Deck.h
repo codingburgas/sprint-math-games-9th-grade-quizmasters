@@ -21,6 +21,8 @@ struct Problems{
 class Cards {
 public:
     Cards(int suit,int rank,std::string problem);
+    int getRank() const { return m_rank; }
+    std::string getProblem() const { return m_problem; }
 
 private:
     int m_suit;
@@ -29,5 +31,6 @@ private:
 
 
 };
+Cards cardSelect(int points);
 
 
