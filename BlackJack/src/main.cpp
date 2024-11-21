@@ -1,7 +1,6 @@
-#include "../lib/app.h"
-#include "../lib/precompile.h"
+#include "app.h"
+#include "precompile.h"
 
 int main() {
     app();
 }
-

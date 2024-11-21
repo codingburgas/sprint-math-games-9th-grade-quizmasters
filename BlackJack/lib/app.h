@@ -1,5 +1,5 @@
 #pragma once
-#include "../lib/precompile.h"
+#include "precompile.h"
 
 
 void app();

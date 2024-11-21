@@ -1,1 +1,0 @@
-  -L"C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/./vendor/raylib/lib"  -L"C:/Users/Misho/CLionProjects/sprint-math-games-9th-grade-quizmasters/BlackJack/./BlackJack/lib"  -lraylibdll -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
