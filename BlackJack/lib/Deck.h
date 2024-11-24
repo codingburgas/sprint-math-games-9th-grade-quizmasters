@@ -33,7 +33,9 @@ private:
     int m_rank;
     std::string m_problem;
     int m_points;
-
+    Texture m_cardSprite = LoadTexture("../")
+    void loadCardSprite();
+    
 
 };
 Cards cardSelect(int points);

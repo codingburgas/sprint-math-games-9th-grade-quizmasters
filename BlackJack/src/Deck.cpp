@@ -61,6 +61,10 @@ Cards cardSelect(int points)
     Cards card(suitDist(rd), randomCard, selectedProblem, cardPoints);
     return card;
 
+
+}
+void Cards::loadCardSprite() {
+    m_cardSprite = LoadImageFromTexture();
 }
 
 
