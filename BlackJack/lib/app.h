@@ -1,7 +1,14 @@
 #pragma once
-#include "precompile.h"
+#include "deck.h"
+#include "mainMenu.h"
 
 
-void app();
-void update();
-void display();
+class App {
+public:
+	App();
+	void update();
+	void display();
+	void playerHand();
+	MainMenu mainMenu;
+
+};

@@ -2,23 +2,25 @@
 #include "deck.h"
 
 
-void app() {
+App::App() {
     InitWindow(1920, 1080, "BlackJack");
+    SetTargetFPS(60);
+    mainMenu.background = LoadTextureFromImage(mainMenu.BackgroundImage);
     update();
     CloseWindow();
 }
-void update() {
+void App::update() {
     while (!WindowShouldClose()) {
         display();
     }
 }
-void display() {
+void App::display() {
     BeginDrawing();
     ClearBackground(RAYWHITE);
-    DrawRectangle(0, 0, 1920, 1080, WHITE);
+    DrawTexture(mainMenu.background, 0, 0, WHITE);
     EndDrawing();
 }
-void playerHand() {
+void App::playerHand() {
     int playersPoints = 0;
     int playersCards = 0;
     char choice;

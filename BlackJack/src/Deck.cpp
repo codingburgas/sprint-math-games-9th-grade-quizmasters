@@ -64,7 +64,7 @@ Cards cardSelect(int points)
 
 }
 void Cards::loadCardSprite() {
-    m_cardSprite = LoadImageFromTexture();
+    m_cardSprite = LoadTexture("../assets/CardsBack.png");
 }
 
 

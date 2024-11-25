@@ -2,5 +2,5 @@
 #include "precompile.h"
 
 int main() {
-    app();
+    App app;
 }
