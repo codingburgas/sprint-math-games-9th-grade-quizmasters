@@ -26,3 +26,9 @@
 
 <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fcodingburgas%2Fsprint-math-games-9th-grade-quizmasters%2Frefs%2Fheads%2Fmain%2FPresenting%2Fquiz%2520masters.pptx&wdOrigin=BROWSELINK" target="_blank">
 <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint icon" width=20px /> Presentation </a>
+
+## Instalation 
+<p>After cloning the repository on your computer using:</p>
+<pre>git clone https://github.com/codingburgas/sprint-math-games-9th-grade-quizmasters.git<pre>
+<p>You will have to run the following command:</p>
+<pre>start ./vendor/premake/premake5.exe vs2022<pre>

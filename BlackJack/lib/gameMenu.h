@@ -1,5 +1,4 @@
 #pragma once
-
 #include "precompile.h"
 
 struct Problems {
@@ -22,10 +21,8 @@ struct Problems {
 class Cards {
 public:
     Cards(int suit, int rank, std::string problem, int points);
-
-
-
     int getRank() { return m_rank; }
+    int getSuit() { return m_suit; }
     std::string getProblem() { return m_problem; }
 
 private:
@@ -33,12 +30,45 @@ private:
     int m_rank;
     std::string m_problem;
     int m_points;
-    Texture m_cardSprite;
-    void loadCardSprite();
-    
-
 };
-Cards cardSelect(int points);
 
+class CardTexture {
+public:
+    CardTexture(std::string path, std::string prob, int posX, int posY);
+    Texture cardTexture;
+    Image temp;
+    std::string problem;
+    int x;
+    int y;
+};
 
-
+class GameMenu {
+public:
+	GameMenu();
+	void loadResources();
+    void gameLogic();
+    void userTurn();
+    void dealerTurn();
+    Cards cardSelect(int& points);
+	Texture table;
+	Texture hitButton;
+	Texture standButton;
+	Rectangle hitButtonRec;
+	Rectangle standButtonRec;
+    std::vector<CardTexture> userTextures;
+    std::vector<CardTexture> dealerTextures;
+private:
+	int dealerPoints = 0;
+	int userPoints = 0;
+    int dealerPosX = 1285;
+    int dealerPosY = 161;
+    int userPosX = 1285;
+    int userPosY = 721;
+    bool isDealerTurn = false;
+    bool isUserTurn = true;
+    bool canUserPlay = true;
+    bool isLMBPressed = false;
+    std::vector<Cards> userDeck;
+    std::vector<Cards> dealerDeck;
+    
+};

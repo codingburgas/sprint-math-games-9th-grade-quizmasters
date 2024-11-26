@@ -5,6 +5,8 @@ class MainMenu {
 public:
 	MainMenu();
 	Texture background;
+	Texture startButton;
+	Texture title;
+	Rectangle startButtonRec;
 	void loadResources();
-	Image BackgroundImage;
 };
